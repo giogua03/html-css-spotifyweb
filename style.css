@@ -5,7 +5,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
+.body-flex{
     display: flex;
     
 }
@@ -15,7 +15,7 @@ body{
     flex-direction: column;
     justify-content: space-between;
     width: 50px;
-    height: calc(100vh - 100px);
+    height: calc(100vh - 70px);
    
 }
 .img-profilo{
@@ -33,12 +33,17 @@ body{
     padding: 0.5rem;
 }
 .upgrade{
-    background-color: rgb(5, 5, 5,0,7);
+    background-color: rgba(5, 5, 5,0.7);
     opacity: 1;
     height: 100px;
     width: calc(100vw - 50px);
     position:absolute;
     z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+   
+
 }
 .upgrade button{
     background-color: black;
@@ -46,6 +51,18 @@ body{
     border-radius :2rem; 
     border-color: white;
     padding:1rem;
-
+    margin-right: .5rem;
     
+}
+footer{
+    width: 100vw;
+    background-color: black;
+    height: 70px;
+    color: white;
+}
+.botton-bar img{
+    width: 20px;
+}
+.btn-flex{
+    display:flex;
 }
